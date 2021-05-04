@@ -1,5 +1,17 @@
 # Introdução ao Backend com NodeJS
 
+**Para rodar Node na sua máquina:**
+https://nodejs.org/en/download/
+
+**VSCode - Editor de Códigos (IDE)**
+https://code.visualstudio.com/download
+
+**Postman** - Para testar requisições Rest (existem vários outros) - Também pode ser o Insomnia ou a versão Web do Postman, mas recomendo para seguir a aula usar o Postman instalado no PC
+https://www.postman.com/downloads/
+
+**JSON Viewer** (Extensão chrome) - Opcional
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR
+
 ## O que é backend?
 
 - **Servidor com 1 camada**
