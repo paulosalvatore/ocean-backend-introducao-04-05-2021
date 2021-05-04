@@ -10,9 +10,12 @@
     - Exibir dados e informações de maneira visual
     - **Lógica de Apresentação:** uso de linguagem de programação para exibir informações
     - **Linguagens usadas no frontend web:** HTML (estrutura - linguagem de marcação), CSS (estilos - linguagem de estilização) e JavaScript (comportamento - linguagem de programação)
+    - O frontend está sempre 100% exposto e vulnerável.
   - **Backend**
     - Fornecer dados e informações para que o frontend exiba
     - Processa requisições do frontend e trabalha com os dados
+    - Conversa com o banco de dados (possui dados e senhas de acesso)
+    - É a principal camada de proteção/segurança da nossa aplicação
     - **Lógica de Negócios:** uso de linguagem de programação para estruturar e organizar informações
     - **Linguagens usadas no backend:** Praticamente qualquer linguagem de programação consegue realizar essa ação.
       - **As mais comuns são:** NodeJS (JavaScript), Java/Kotlin, PHP, Python, C#, C++, ...
@@ -29,4 +32,19 @@
         - O NodeJS é um motor (software) escrito em C++ pra interpretar JavaScript!
       - **Compilador:** Um software que recebe um arquivo de código e converte esse código para um arquivo binário.
       - Esse arquivo binário será executado pelo sistema operacional.
-- Servidor multicamadas
+- **Servidor multicamadas**
+  - Mais de um frontend
+  - Mais de um backend
+  - Quantos servidores eu quiser.
+  - É como se eu quebrasse o backend em várias aplicações.
+  - Arquitetura de microsserviços
+- **REST:** comunicação via protocolo HTTP utilizando alguns verbos
+  - **Verbos (ou Methods):** CREATE, GET, PUT, DELETE, ...
+  - **CREATE:** criar registros
+  - **GET:** ler registros
+  - **PUT:** atualizar registros
+  - **DELETE:** remover registros
+- **Node e NPM:**
+  - Node Package Manager: Gerenciador de pacotes do Node
+  - Todas as bibliotecas serão acessadas/instaladas pelo NPM
+  - NPM salva todas as informações do projeto em um arquivo chamado `package.json`.
