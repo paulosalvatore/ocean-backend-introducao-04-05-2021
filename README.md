@@ -60,3 +60,24 @@ https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibn
   - Node Package Manager: Gerenciador de pacotes do Node
   - Todas as bibliotecas serão acessadas/instaladas pelo NPM
   - NPM salva todas as informações do projeto em um arquivo chamado `package.json`.
+
+## HTTP
+
+- **URL:** http://localhost:3000/
+- **Protocolo:** HTTP
+- **Endereço:** localhost (IP: 127.0.0.1)
+- **Porta:** 3000
+
+
+
+- **Google URL:** https://google.com
+- **Protocolo:** HTTPS
+- **Endereço:** google.com
+- **Porta:** 80
+
+
+
+- **Globo URL:** https://globo.com
+- **Protocolo:** HTTPS
+- **Endereço:** globo.com (IP: 186.192.90.12)
+- **Porta:** 80
