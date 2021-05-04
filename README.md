@@ -67,6 +67,11 @@ https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibn
 - **Protocolo:** HTTP
 - **Endereço:** localhost (IP: 127.0.0.1)
 - **Porta:** 3000
+- **Método:** GET
+- **Endpoint (rota):**
+  - `/`: informações da aplicação
+  - `/hello`: Hello, world!
+  - `/mensagens`: Exibe a lista de mensagens
 
 
 
